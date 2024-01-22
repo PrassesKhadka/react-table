@@ -4,4 +4,4 @@
 [React Table Basic v8 - mafia codes ](https://www.youtube.com/watch?v=AuLg79Th3xE)
 [React Table Basic v8 - Nikita Dev](https://www.youtube.com/watch?v=CjqG277Hmgg)
 [Advance React Table v8 ](https://www.youtube.com/watch?v=fL8VlLe8Upo&list=PLcuAByNrzwnj1az88-vpnwj-tDp4eCwXi)
-[Creating a reusable react-table component with TypeScript](https://dev.to/esponges/create-a-reusable-react-table-component-with-typescript-56d4)
+[Creating a reusable react-table component with TypeScript Blog](https://dev.to/esponges/create-a-reusable-react-table-component-with-typescript-56d4)

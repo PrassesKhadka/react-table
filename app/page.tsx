@@ -67,7 +67,13 @@ const columns: ColumnDef<Idata>[] = [
 export default function Home() {
   return (
     <main className="">
-      <Table data={DATA} columns={columns} showFooter showNavigation />
+      <Table
+        data={DATA}
+        columns={columns}
+        showFooter
+        showNavigation
+        showGlobalFilter={true}
+      />
     </main>
   );
 }
