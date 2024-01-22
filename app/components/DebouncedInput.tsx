@@ -3,8 +3,8 @@
 
 import React, { useState, useEffect } from "react";
 
-// will have all the attribute of HTMLInputElement like className,placeholder,type="text",etc except onChange
-// since we will be passing onChange attribute to the input element explicitly
+// will have all the attribute of HTMLInputElement like className,placeholder,type="text",etc
+// except onChange since we will be passing onChange attribute to the input element explicitly
 
 interface DebouncedInputProps
   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, "onChange"> {
@@ -18,7 +18,7 @@ const DebouncedInput: React.FC<DebouncedInputProps> = ({
   onChange,
   debounceTime = 300,
   ...props
-}) => {
+}: DebouncedInputProps) => {
   const [value, setValue] = useState<string | number>(initialValue);
 
   useEffect(() => {
@@ -29,7 +29,6 @@ const DebouncedInput: React.FC<DebouncedInputProps> = ({
     const timeout = setTimeout(() => {
       onChange(value);
     }, debounceTime);
-
     return () => {
       clearTimeout(timeout);
     };

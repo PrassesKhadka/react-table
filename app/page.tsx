@@ -3,7 +3,7 @@
 import { ColumnDef } from "@tanstack/react-table";
 import Table from "./components/Table";
 import { DATA, Idata } from "@/data";
-import { useMemo } from "react";
+import { ReactNode, useMemo } from "react";
 
 // for columns:
 const columns: ColumnDef<Idata>[] = [
@@ -32,7 +32,7 @@ const columns: ColumnDef<Idata>[] = [
     accessorKey: "task",
     cell: (row) => (
       <p className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-        {row.renderValue()}
+        {row.renderValue() as ReactNode}
       </p>
     ),
   },

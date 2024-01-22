@@ -11,12 +11,7 @@ import {
   ColumnSort,
   SortDirection,
 } from "@tanstack/react-table";
-import {
-  ArrowDownUpIcon,
-  ArrowUpDownIcon,
-  MoveDownIcon,
-  MoveUpIcon,
-} from "lucide-react";
+import { ArrowUpDownIcon, MoveDownIcon, MoveUpIcon } from "lucide-react";
 import React, { useState } from "react";
 import DebouncedInput from "./DebouncedInput";
 

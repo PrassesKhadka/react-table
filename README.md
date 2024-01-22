@@ -5,3 +5,13 @@
 [React Table Basic v8 - Nikita Dev](https://www.youtube.com/watch?v=CjqG277Hmgg)
 [Advance React Table v8 ](https://www.youtube.com/watch?v=fL8VlLe8Upo&list=PLcuAByNrzwnj1az88-vpnwj-tDp4eCwXi)
 [Creating a reusable react-table component with TypeScript Blog](https://dev.to/esponges/create-a-reusable-react-table-component-with-typescript-56d4)
+
+## TypeScript
+
+Omit Utility Type in TypeScript, omits onChange attribute from InputHTML attribute interface
+
+```c
+Omit<React.InputHTMLAttributes<HTMLInputElement>, "onChange">
+```
+
+## Debouncing and Throttling in JavaScript:
