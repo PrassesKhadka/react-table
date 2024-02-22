@@ -1,3 +1,4 @@
+import { ComboboxDemo } from "./components/Combobox";
 import "./globals.css";
 
 export default function RootLayout({
@@ -7,7 +8,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="p-5">
+        <div className="flex justify-center items-center my-5">
+          <ComboboxDemo />
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
