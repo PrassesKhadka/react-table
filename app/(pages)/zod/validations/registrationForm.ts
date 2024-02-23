@@ -4,6 +4,14 @@ import {
   type PersonalInformationFormSchemaProps,
 } from "./personalInformation";
 
+export interface IregistrationFormData {
+  formType: string;
+  personalInformation: {
+    firstName: string;
+    lastName: string;
+    phone: string;
+  };
+}
 export enum RegistrationFormTypeEnum {
   PersonalInformation = "personalInformation",
 }

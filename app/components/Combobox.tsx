@@ -35,6 +35,11 @@ const datas = [
     label: "Zod",
     href: "zod",
   },
+  {
+    value: "aceternity-ui",
+    label: "AceternityUI",
+    href: "aceternity-ui",
+  },
 ];
 
 export function ComboboxDemo() {
