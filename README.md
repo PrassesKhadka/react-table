@@ -27,8 +27,15 @@ Omit<React.InputHTMLAttributes<HTMLInputElement>, "onChange">
 - [TotalTypescript zod Practise problems with vitest(testing)](https://www.totaltypescript.com/tutorials/zod/zod-section/number)
 - [Zod- Jack Herrington](https://www.youtube.com/watch?v=rY_XqfSHock)
 
+## Zod with React Hook Form
+
+`npm install @hookform/resolvers`
+
+- [Docs](https://github.com/react-hook-form/resolvers)
+- [shadcn example](https://ui.shadcn.com/docs/components/form)
+
 ## Vitest and React Testing Library
 
 - [RTL Playground](https://testing-playground.com/)
 - [RTL Tutorial Blog](https://www.robinwieruch.de/react-testing-library/)
-- [Next.js Examples with vitest](https://github.com/vercel/next.js/tree/canary/examples/with-vitest)
+- [Next.js Examples with vitest](https://github.com/vercel/next.js/tree/canary/example 87r6312`212wedvfxcv cv s/with-vitest)

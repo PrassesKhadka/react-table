@@ -12,6 +12,6 @@ export const personalInformationSchema = z.object({
   phone: z.string().min(1, "Phone is required").max(20, "Phone is invalid"),
 });
 
-export type PersonalInformationFormSchemaProps = z.infer<
+export type TpersonalInformationSchema = z.infer<
   typeof personalInformationSchema
 >;
