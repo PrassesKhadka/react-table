@@ -26,6 +26,7 @@ Omit<React.InputHTMLAttributes<HTMLInputElement>, "onChange">
 - [Zod Docs](https://github.com/colinhacks/zod?tab=readme-ov-file#basic-usage)
 - [TotalTypescript zod Practise problems with vitest(testing)](https://www.totaltypescript.com/tutorials/zod/zod-section/number)
 - [Zod- Jack Herrington](https://www.youtube.com/watch?v=rY_XqfSHock)
+- [All places for zod in your React app](https://www.youtube.com/watch?v=AeQ3f4zmSMs&list=PLK5U0tyd34tANnRkbFeXUbZl_1n9A33zL) 
 
 ## Zod with React Hook Form
 
